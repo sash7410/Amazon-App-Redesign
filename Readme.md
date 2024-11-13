@@ -7,6 +7,16 @@ A redesigned mobile experience for Amazon's shopping app, focusing on improved u
 ### 🔗 Live Demo
 - [Figma Prototype Link](https://www.figma.com/design/jJ3KYOkTGBPbV4gCxGO4Ht/Amazon-app?node-id=34-699&t=9m8O4zRgLz9onAWF-1)
 
+### 📱 Prototype Design
+#### Screen Layout
+![Screen Layout](images/Design.png)
+*Complete set of screens including user profile, shopping cart, checkout flow, order tracking, and help & support pages*
+
+#### Interactive Flows
+![Interactive Flows](images/Interactions.png)
+*Visualization of all interactive connections between screens, showing the complete user journey from browsing to purchase completion*
+
+
 ### 🎯 Key Features
 1. **Enhanced Shopping Flow**
    - Modernized home screen with personalized recommendations
