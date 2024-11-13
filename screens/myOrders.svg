@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#F5F7FA"/>
+    </linearGradient>
+    <filter id="cardShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="2"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.1"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main Background -->
+  <rect width="390" height="844" fill="url(#bgGradient)"/>
+
+  <!-- Status Bar -->
+  <rect width="390" height="44" fill="#FFFFFF"/>
+  <g transform="translate(21, 12)">
+    <text x="0" y="16" font-family="SF Pro Text" font-size="15" fill="#000000">9:41</text>
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(0, 44)">
+    <rect width="390" height="64" fill="#FFFFFF"/>
+    <g transform="translate(16, 16)">
+      <circle cx="16" cy="16" r="16" fill="#F5F5F5"/>
+      <path d="M18,8 L12,16 L18,24" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <text x="195" y="38" font-family="SF Pro Text" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">Your Orders</text>
+  </g>
+
+  <!-- Search Orders -->
+  <g transform="translate(16, 124)">
+    <rect width="358" height="48" rx="24" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <g transform="translate(16, 12)">
+      <path d="M12,0 C5.4,0 0,5.4 0,12 C0,18.6 5.4,24 12,24 C18.6,24 24,18.6 24,12 C24,5.4 18.6,0 12,0 M22,22 L17,17" fill="none" stroke="#666666" stroke-width="2"/>
+    </g>
+    <text x="52" y="30" font-family="SF Pro Text" font-size="15" fill="#666666">Search all orders</text>
+  </g>
+
+  <!-- Order Filters -->
+  <g transform="translate(16, 188)">
+    <rect width="358" height="48" rx="24" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <g transform="translate(16, 0)">
+      <rect width="80" height="48" rx="24" fill="#0066C0"/>
+      <text x="40" y="30" font-family="SF Pro Text" font-size="14" fill="#FFFFFF" text-anchor="middle">All Orders</text>
+      
+      <text x="120" y="30" font-family="SF Pro Text" font-size="14" fill="#666666">Buy Again</text>
+      <text x="220" y="30" font-family="SF Pro Text" font-size="14" fill="#666666">Not Yet Shipped</text>
+    </g>
+  </g>
+
+  <!-- Orders Section -->
+  <g transform="translate(16, 252)">
+    <!-- Current Order -->
+    <rect width="358" height="180" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <g transform="translate(16, 16)">
+      <!-- Order Status -->
+      <text x="0" y="20" font-family="SF Pro Text" font-size="14" fill="#007600">Arriving tomorrow by 8 PM</text>
+      <text x="0" y="44" font-family="SF Pro Text" font-size="12" fill="#666666">ORDER #1234-5678-9012</text>
+      
+      <!-- Product Info -->
+      <g transform="translate(0, 56)">
+        <rect width="80" height="80" rx="8" fill="#F5F5F5"/>
+        <g transform="translate(96, 0)">
+          <text x="0" y="20" font-family="SF Pro Text" font-size="15" fill="#000000">Clear Case for iPhone 14 Pro</text>
+          <text x="0" y="40" font-family="SF Pro Text" font-size="14" fill="#666666">$29.99</text>
+          <!-- Track Button -->
+          <rect x="0" y="52" width="100" height="32" rx="16" fill="#0066C0"/>
+          <text x="50" y="72" font-family="SF Pro Text" font-size="14" fill="#FFFFFF" text-anchor="middle">Track</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Past Order 1 -->
+    <g transform="translate(0, 196)">
+      <rect width="358" height="180" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <g transform="translate(16, 16)">
+        <!-- Order Status -->
+        <text x="0" y="20" font-family="SF Pro Text" font-size="14" fill="#666666">Delivered Nov 10</text>
+        <text x="0" y="44" font-family="SF Pro Text" font-size="12" fill="#666666">ORDER #1234-5678-9011</text>
+        
+        <!-- Product Info -->
+        <g transform="translate(0, 56)">
+          <rect width="80" height="80" rx="8" fill="#F5F5F5"/>
+          <g transform="translate(96, 0)">
+            <text x="0" y="20" font-family="SF Pro Text" font-size="15" fill="#000000">AirPods Pro</text>
+            <text x="0" y="40" font-family="SF Pro Text" font-size="14" fill="#666666">$249.00</text>
+            <!-- Buy Again Button -->
+            <rect x="0" y="52" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#0066C0" stroke-width="1"/>
+            <text x="50" y="72" font-family="SF Pro Text" font-size="14" fill="#0066C0" text-anchor="middle">Buy Again</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Past Order 2 -->
+    <g transform="translate(0, 392)">
+      <rect width="358" height="180" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <g transform="translate(16, 16)">
+        <!-- Order Status -->
+        <text x="0" y="20" font-family="SF Pro Text" font-size="14" fill="#666666">Delivered Nov 5</text>
+        <text x="0" y="44" font-family="SF Pro Text" font-size="12" fill="#666666">ORDER #1234-5678-9010</text>
+        
+        <!-- Product Info -->
+        <g transform="translate(0, 56)">
+          <rect width="80" height="80" rx="8" fill="#F5F5F5"/>
+          <g transform="translate(96, 0)">
+            <text x="0" y="20" font-family="SF Pro Text" font-size="15" fill="#000000">MacBook Charger</text>
+            <text x="0" y="40" font-family="SF Pro Text" font-size="14" fill="#666666">$59.99</text>
+            <!-- Buy Again Button -->
+            <rect x="0" y="52" width="100" height="32" rx="16" fill="#FFFFFF" stroke="#0066C0" stroke-width="1"/>
+            <text x="50" y="72" font-family="SF Pro Text" font-size="14" fill="#0066C0" text-anchor="middle">Buy Again</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
